@@ -1,1 +1,46 @@
-
+.navbar
+  display: flex
+  justify-content: space-between
+  margin-top: 17px
+  align-items: center
+  &-menu
+    display: flex
+    justify-content: space-between
+    list-style-type: none
+    margin: 0
+    padding: 0
+    &__item
+      border-radius: 9px
+      padding: 18px 14px
+      &:hover
+        background-color: rgba(161, 127, 255, 0.11)
+    &__link
+      font-family: 'Rubik', sans-serif
+      text-decoration: none
+      font-style: normal
+      font-weight: normal
+      color: $primary
+      font-size: 16px
+      line-height: 19px
+  &__login
+    color: $primary
+    display: flex
+    font-family: 'Rubik', sans-serif
+    font-style: normal
+    font-weight: normal
+    font-size: 16px
+    line-height: 19px
+    &-login
+      display: block
+      text-decoration: none
+      border-radius: 9px
+      padding: 18px 14px
+      &:hover
+        background-color: rgba(161, 127, 255, 0.11)
+    &-registration
+      text-decoration: none
+      display: block
+      border-radius: 9px
+      padding: 18px 14px
+      &:hover
+        background-color: rgba(161, 127, 255, 0.11)
