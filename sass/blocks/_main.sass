@@ -1,0 +1,166 @@
+.main
+  background-image: url('../../img/main/bg_item.png')
+  background-size: 100% auto
+  padding-bottom: 72px
+  &__text
+    padding-top: 113px
+    padding-bottom: 54px
+    &-title
+      font-family: 'Rubik', sans-serif
+      font-style: normal
+      font-weight: bold
+      font-size: 60px
+      line-height: 111.9%
+      text-align: center
+      color: #ffffff
+    &-subtitle
+      display: block
+      text-align: center
+      font-family: 'Rubik', sans-serif
+      font-style: normal
+      font-weight: normal
+      font-size: 19px
+      line-height: 23px
+      color: #ffffff
+  &__calculator
+    max-width: 1109px
+    margin: auto
+    background: rgba(255, 255, 255, 0.7)
+    border: 4px solid #9931ff
+    border-radius: 26px
+    padding: 77px 85px 77px 107px
+    &-change
+      background: linear-gradient(140.59deg, #562EC2 29.59%, #A07EFE 73.59%)
+      opacity: 0.8
+      border-radius: 9px
+      padding: 19px 40px
+      border: none
+      outline: none
+      cursor: pointer
+      font-family: 'Rubik', sans-serif
+      font-style: normal
+      font-weight: bold
+      font-size: 14px
+      line-height: 17px
+      text-align: center
+      color: #FFFFFF
+    &-select
+      &_select
+        background: none
+        border: 0
+        outline: none
+        appearance: none // Убирает стрелочки и границу
+        font-family: 'Rubik', sans-serif
+        font-style: normal
+        font-weight: 300
+        font-size: 16px
+        line-height: 19px
+        padding-right: 20px
+        color: #4E5983
+        cursor: pointer
+      &_currency
+        display: inline
+        position: relative
+        margin-left: 42px
+        &::after
+          content: ''
+          border-style: solid
+          border-width: 7px 6px 0 6px
+          border-color: #4e5983 transparent transparent transparent
+          position: absolute
+          top: 25%
+          left: 40px
+    &-sum
+      font-family: 'Rubik', sans-serif
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 17px
+      color: #4E5983
+      opacity: 0.5
+      display: block
+      width: 100%
+    &-give
+      width: 43.9% // Можно посчитать в пикселях и задать марджином
+      font-family: 'Rubik', sans-serif
+      font-style: normal
+      font-weight: 500
+      font-size: 18px
+      line-height: 21px
+      color: #4E5983
+      &_icon
+        position: absolute
+        top: 30%
+        left: 63%
+    &-take
+      font-family: 'Rubik', sans-serif
+      font-style: normal
+      font-weight: 500
+      font-size: 18px
+      line-height: 21px
+      color: #4E5983
+      margin-right: 15px
+      &_icon
+        position: absolute
+        top: 30%
+        left: 63%
+    &-commission
+      font-family: 'Rubik', sans-serif
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 14px
+      color: #4E5983
+      align-self: center
+    &-give
+      &_money
+        width: 173px
+        // border: none
+        outline: none
+        border-color: transparent #d6dce2 transparent transparent
+        background-color: rgba(255,255,255,0)
+        font-family: 'Rubik', sans-serif
+        font-style: normal
+        font-weight: normal
+        font-size: 20px
+        line-height: 24px
+        letter-spacing: 0.015em
+        color: #094067
+        margin-right: 18px
+    &-take
+      &_money
+        width: 173px
+        border-color: transparent #d6dce2 transparent transparent
+        outline: none
+        background: rgba(255,255,255,0)
+        font-family: 'Rubik', sans-serif
+        font-style: normal
+        font-weight: normal
+        font-size: 20px
+        line-height: 24px
+        letter-spacing: 0.015em
+        color: #094067
+        margin-right: 18px
+    &-description
+      display: flex
+      margin-bottom: 42px
+    &-calc
+      display: flex
+      align-items: center
+      &_give
+        position: relative
+        border-bottom: 2px solid rgba(214, 220, 226, 1)
+        width: 290px
+        // padding-bottom: 10px
+        // Можно отодвитуть эти блоки паддингом, а нижний отступ уменьшить
+        margin-right: 46px
+        padding-bottom: 13px
+      &_take
+        position: relative
+        border-bottom: 2px solid rgba(214, 220, 226, 1)
+        width: 290px
+        margin-left: 46px
+        margin-right: 68px
+        padding-bottom: 13px
+        // padding-bottom: 10px
+        // Можно отодвитуть эти блоки паддингом, а нижний отступ уменьшить

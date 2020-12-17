@@ -39,5 +39,80 @@
       </div>
       <!-- container -->
     </header>
+    <section class="main">
+      <div class="container">
+        <div class="main__text">
+          <h1 class="main__text-title">
+            Мультивалютный <br />
+            обменный сервис 24/7
+          </h1>
+          <span class="main__text-subtitle"
+            >Быстрый обмен без скрытых комиссий</span
+          >
+        </div>
+        <!-- main__text -->
+        <div class="main__calculator">
+          <div class="main__calculator-description">
+            <span class="main__calculator-give">Вы отдаете</span>
+            <span class="main__calculator-take">Вы получете</span>
+            <span class="main__calculator-commission"
+              >c учетом комиссии ПС (0.5%)</span
+            >
+          </div>
+          <!-- /.main__calculator-text -->
+          <div class="main__calculator-calc">
+            <div class="main__calculator-calc_give">
+              <span class="main__calculator-sum">Сумма</span>
+              <input
+                type="text"
+                class="main__calculator-give_money"
+                placeholder="1000.00"
+              />
+              <img
+                class="main__calculator-give_icon"
+                src="/img/main/Sber.svg"
+                alt="Icon: Sberbank"
+              />
+              <div class="main__calculator-select_currency">
+                <select class="main__calculator-select_select">
+                  <option value="value1" selected>RUB</option>
+                  <option value="value2">EUR</option>
+                  <option value="value3">USD</option>
+                </select>
+              </div>
+              <!-- /.main__calculator-select_currency -->
+            </div>
+            <!-- main__calculator-calc_give -->
+            <img src="img/main/Change.svg" alt="Icon: Change" />
+            <div class="main__calculator-calc_take">
+              <span class="main__calculator-sum">Сумма</span>
+              <input
+                type="text"
+                class="main__calculator-take_money"
+                placeholder="1000.00"
+              />
+              <img
+                class="main__calculator-take_icon"
+                src="/img/main/YMoney.svg"
+                alt="Icon: Yandex Money"
+              />
+              <div class="main__calculator-select_currency">
+                <select class="main__calculator-select_select">
+                  <option value="value1" selected>RUB</option>
+                  <option value="value2">EUR</option>
+                  <option value="value3">USD</option>
+                </select>
+              </div>
+              <!-- main__calculator-select_currency -->
+            </div>
+            <!-- main__calculator-calc_take -->
+            <button class="main__calculator-change">Обменять</button>
+          </div>
+          <!-- /.main__calculator-calc -->
+        </div>
+        <!-- /.main__calculator -->
+      </div>
+      <!-- container -->
+    </section>
   </body>
 </html>
